@@ -1,5 +1,43 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Link to working demo: 
+- https://zealous-agnesi-d03955.netlify.app/
+# Task Specification
+<ol type="a">
+  <li>
+    Showing List of All Albums with the  name of the user album is related to.
+  </li>
+  <li>
+    On click of View More button redirect to details page to show details of album.
+  </li>  
+  <li>
+    Implement pagination 
+    <ol>
+      <li>
+        Show only 5 per page. 
+      </li>
+       <li>
+         On next click load another 5 
+      </li>
+       <li>
+         Disable Previous button if on first page, Disable Next if no more data. 
+      </li>
+      <li>
+         Highlight the current page number as shown in image below
+      </li>
+    </ol>
+  </li>
+</ol>
+<br />
+<br />
 
+![Design Specification Image](https://github.com/yassh-pandey/Fake-Pagination/blob/master/FakePaginationSpecification.png)
+
+<br/>
+<br/>
+
+## API details:
+- GET ALL ALBUMS: https://jsonplaceholder.typicode.com/albums/
+- GET ALL USERS: http://jsonplaceholder.typicode.com/users
 ## Available Scripts
 
 In the project directory, you can run:
