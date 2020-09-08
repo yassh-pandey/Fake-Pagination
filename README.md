@@ -7,9 +7,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     Showing List of All Albums with the  name of the user album is related to.
   </li>
   <li>
-    On click of View More button redirect to details page to show details of album.
-  </li>  
-  <li>
     Implement pagination 
     <ol>
       <li>
