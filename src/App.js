@@ -28,7 +28,7 @@ function App() {
     }
     fetchAllAlbums()
     .then(()=>{
-      fetch("http://jsonplaceholder.typicode.com/users")
+      fetch("https://jsonplaceholder.typicode.com/users")
       .then(res=>res.json())
       .then(data=>{
         setUsers(data);
