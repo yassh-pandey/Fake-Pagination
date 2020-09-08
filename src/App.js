@@ -12,7 +12,7 @@ function App() {
   const [tabArray, setTabArray] = useState([1, 2, 3, 4]);
   const [tabIndex, setTabIndex] = useState(0);
   const currentTabIndicatorRef = useRef();
-  const transition = {
+  let transition = {
     0: "0px",
     1: "70px",
     2: "127px",
